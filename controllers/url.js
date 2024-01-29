@@ -3,7 +3,7 @@ const URL =require('../models/url');
 
 
 async function handleGenerateNewShortURL(req,res){
-    const body = req.body; 
+    const body = req.body;
     if(!body.url) return res.status(400).json({error : 'URL is required'})
     const  shortID = nanoid(5);
     await URL.create({
