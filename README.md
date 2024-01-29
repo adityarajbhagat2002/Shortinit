@@ -4,7 +4,13 @@
 
 This application allows users to shorten URLs and manage them efficiently. It follows the MVC architecture pattern for better organization and scalability.
 
-URL : https://arb-sh.onrender.com/login
+**URL** : https://arb-sh.onrender.com/login
+
+**Demo**:
+
+
+https://github.com/adityarajbhagat2002/Shortinit/assets/90248806/64cf22d0-2672-4d10-a0c2-98b9ce16ea56
+
 
 ## Technologies Used
 
@@ -15,11 +21,11 @@ URL : https://arb-sh.onrender.com/login
 
 ## Installation and Setup
 
-1. Clone the GitHub repository:
+1. Clone the GitHub repository: `git clone <URL>`
 
-2. Navigate to the project directory:
+2. Navigate to the project directory: `cd <dir>`
 
-3. Install dependencies:
+3. Install dependencies: `npm install`
 
 4. Set up environment variables:
 
@@ -28,7 +34,7 @@ URL : https://arb-sh.onrender.com/login
 
 ## Running the Application
 
-1. Start the server:
+1. Start the server: `nodemon app`
 2. Access the application in your browser at `http://localhost:3000`.
 
 ## Functionality
@@ -43,7 +49,7 @@ URL : https://arb-sh.onrender.com/login
 
 - **Shorten URL:** Authenticated users can shorten long URLs, generating a unique short URL.
 - **View Shortened URLs:** Users can view a list of their shortened URLs along with original links.
-- **Delete Shortened URL:** Users can delete any of their shortened URLs if needed.
+- **Analytics of Shortened URLs:** Users can view their URLS and even keep the track of number of clicks o it. 
 
 ### 3. Database Integration
 
